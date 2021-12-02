@@ -1,0 +1,29 @@
+{
+    "name": "time-tracking-dashboard-main",
+    "version": "1.0.0",
+    "description": "A package system for Front-end-mentor project.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chaitanyadandekar/time-tracking-dashboard-hub-html-scss-js.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chaitanyadandekar/time-tracking-dashboard-hub-html-scss-js/issues"
+    },
+    "homepage": "https://github.com/chaitanyadandekar/time-tracking-dashboard-hub-html-scss-js#readme",
+    "devDependencies": {
+        "browser-sync": "^2.27.7",
+        "cssnano": "^5.0.12",
+        "gulp": "^4.0.2",
+        "gulp-postcss": "^9.0.1",
+        "gulp-sass": "^5.0.0",
+        "gulp-terser": "^2.1.0",
+        "sass": "^1.44.0"
+    }
+}
