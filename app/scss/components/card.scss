@@ -1,4 +1,91 @@
 @use '../util' as *;
 .card {
-    padding: rem(20);
+    border: rem(1) solid var(--very-dark-blue);
+    border-radius: rem(10);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__behind {
+        border-radius: rem(10);
+        width: 100%;
+        height: rem(110);
+        z-index: 0;
+        img {
+            float: right;
+        }
+    }
+    &__main-content:hover {
+        background-color: var(--hover-blue);
+    }
+    &__main-content {
+        transition-duration: 0.5s;
+        background-color: var(--dark-blue);
+        color: var(--pale-blue);
+        border-radius: rem(10);
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
+        &__base {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 rem(20);
+            &-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img {
+                    opacity: 0.5;
+                    transition-duration: 0.5s;
+                }
+                img:hover {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+            }
+            &-current {
+                p {
+                    margin: 0;
+                    margin-top: rem(5);
+                    font-size: rem(40);
+                }
+            }
+            &-previous {
+                margin-bottom: rem(20);
+                p {
+                    font-size: rem(12);
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint-down(medium) {
+    .card {
+        margin: rem(10) auto;
+        width: 80vw;
+        height: rem(200);
+        min-width: rem(300);
+        &__behind {
+            height: rem(200);
+            width: 100%;
+        }
+        &__main-content {
+            &__base {
+                display: block;
+                &-current {
+                    margin-bottom: rem(25);
+                    display: inline-block;
+                }
+                &-previous {
+                    margin-top: rem(10);
+                    align-self: center;
+                    display: inline-block;
+                    float: right;
+                }
+            }
+        }
+    }
 }
