@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/chaitanyadandekar/time-tracking-dashboard-hub-html-scss-js)
+- Live Site URL: [Vercel](https://time-tracking-dashboard-hub.vercel.app)
 
 ## My process
 
@@ -61,7 +61,7 @@ Throught the project I have made sure that I use semantic markups, but they have
 
 - [Coder Coder](https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ) - This channel is reccomended to anyone starting projects. She covers live project building and is really helpful setting the enviornments.
 
-- [w3schools]https://www.w3schools.com) - Amazing page which helped all aspects of projects.
+- [w3schools](https://www.w3schools.com) - Amazing page which helped all aspects of projects.
 
 ## Author
 
